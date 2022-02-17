@@ -1,60 +1,85 @@
 <!DOCTYPE html>
 <html lang="cs">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tabulky v html</title>
-    <link rel="stylesheet" href="css/table.css">
-</head>
+    <link rel="stylesheet" href="css/table.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Tabulky v HTML</h1>
+      <h1>Tabulky v HTML</h1>
     </header>
     <main>
-        <table>
-            <caption class="nadpis-tabulka">Snowboarding: ženy U-rampa</caption>
-            <thead>
-                <tr>
-                    <th>Umístění</th>
-                    <th>Sportovec</th>
-                    <th>Stát</th>
-                    <th>Výkon</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="gold">
-                    <td class="text-center text-bold">1.</td>
-                    <td class="text-bold">Kimová</td>
-                    <td class="text-bold"><img src="img/USA.png" alt="Vlajka USA" class="prvni"> USA</td>
-                    <td class="text-right text-bold">94.00</td>
-                </tr>
-                <tr class="silver">
-                    <td class="text-center">2.</td>
-                    <td class="text-bold">Tomitaová</td>
-                    <td class="text-bold"><img src="img/JPN.png" alt="Vlajka Japonska" class="druhe"> Japonsko</td>
-                    <td class="text-right text-bold">86.00</td>
-                </tr>
-                <tr class="bronze">
-                    <td class="text-center">3.</td>
-                    <td class="text-bold">Cchaj</td>
-                    <td class="text-bold"><img src="img/CHN.png" alt="Vlajka Číny" class="treti"> Čína</td>
-                    <td class="text-right text-bold">81.25</td>
-                </tr>
-            </tbody>
-            <tfoot>
-            <tr>
-                <td colspan="4" class="text-center">Zimní olympijské hry Peking 2022</td> 
-            </tr>
-            </tfoot>
-        </table>
+      <table>
+        <caption class="nadpis-tabulka">
+          Snowboarding: ženy U-rampa
+        </caption>
+        <thead>
+          <tr>
+            <th>Umístění</th>
+            <th>Sportovec</th>
+            <th>Stát</th>
+            <th>Výkon</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="gold">
+            <td class="text-center text-bold">1.</td>
+            <td class="text-bold">Kimová</td>
+            <td class="text-bold">
+              <img src="img/USA.png" alt="Vlajka USA" class="prvni" /> USA
+            </td>
+            <td class="text-right text-bold">94.00</td>
+          </tr>
+          <tr class="silver">
+            <td class="text-center">2.</td>
+            <td class="text-bold">Tomitaová</td>
+            <td class="text-bold">
+              <img src="img/JPN.png" alt="Vlajka Japonska" class="druhe" />
+              Japonsko
+            </td>
+            <td class="text-right text-bold">86.00</td>
+          </tr>
+          <tr class="bronze">
+            <td class="text-center">3.</td>
+            <td class="text-bold">Cchaj</td>
+            <td class="text-bold">
+              <img src="img/CHN.png" alt="Vlajka Číny" class="treti" /> Čína
+            </td>
+            <td class="text-right text-bold">81.25</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4" class="text-center">
+              Zimní olympijské hry Peking 2022
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+      <h2>Tabulka</h2>
+      <table>
+        <tbody>
+          <tr>
+            <th rowspan="3">Logo</th>
+            <td colspan="2">Zimní olympijské hry 2022</td>
+          </tr>
+          <tr>
+            <td colspan="2">Účastní se 2922 sportovců</td>
+          </tr>
+          <tr>
+            <td>od</td>
+            <td>do:</td>
+          </tr>
+        </tbody>
+      </table>
     </main>
     <footer>
-        <hr>
-        <p>&copy; Vítězslav Nikel, 2022</p>
+      <hr />
+      <p>&copy; Vítězslav Nikel, 2022</p>
     </footer>
-</body>
-
+  </body>
 </html>
