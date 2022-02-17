@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+    font-family: 'Ubuntu', sans-serif;
+    color: gray;
+}
+h1{
+    text-align: center;
+    background-color: rgb(28, 27, 31);
+    color: rgb(145, 154, 167);
+padding: 20px;
+}
+
+body {
+    background-color: rgb(51, 50, 50)
+}
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
+table{
+    width: 100%;
+    font-size: larger;
+}
+
+table, th, td{
+    border: 1px solid #888;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-right{
+text-align: right;
+}
+.prvni{
+height: 200px;
+}
+.druhe{
+height: 100px;
+}
+.treti{
+height: 50px;
+}
+.text-bold{
+    font-weight: bold;
+}
+.gold{
+    background-color: goldenrod;
+}
+.silver{
+background-color: silver;
+}
+.bronze{
+background-color: #cd7f32;
+}
+.nadpis-tabulka{
+    font-weight: bolder;
+    font-size: x-large;
+}
